@@ -13,6 +13,13 @@ Create folder
 4. src/test/pages
 
 --------------------------------------------------
+Add the below
+1. Cucumber.json
+2. Setting.json
+3. package.json
+4. tsconfig.json
+
+--------------------------------------------------
 Tutorials
 Playwright Cucumber (BDD) - Typescript
 Automated Software Testing with Playwright
