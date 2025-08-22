@@ -1,0 +1,20 @@
+{
+  "default": {
+    "timeout": 20000,
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": [
+      "src/test/features/"
+    ],
+    "publishQuiet": true,
+    "dryRun": false,
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "require": [
+      "src/test/steps/*.ts",
+      "src/test/hooks/hooks.ts"
+    ]
+  }
+}
